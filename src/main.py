@@ -15,6 +15,16 @@ class VacCheckApp(MDApp):
         screen = Builder.load_string(screen_helper)
         return screen
 
+    def capture(self):
+        '''
+        Function to capture the images and give them the names
+        according to their captured time and date.
+        '''
+        # camera = self.ids['camera']
+        # timestr = time.strftime("%Y%m%d_%H%M%S")
+        # camera.export_to_png("IMG_{}.png".format(timestr))
+        print("Captured")
+
     def navigation_draw(self, nav_drawer):
         """
         Event handler for when the user taps on the menu icon button.

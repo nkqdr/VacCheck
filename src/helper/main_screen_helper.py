@@ -4,9 +4,15 @@ screen_helper = """
     orientation: "vertical"
     size_hint_y: None
     height: "400dp"
-    MDLabel:
-        text: 'Kamera hier einfügen'
-        halign: 'center'
+    Camera:
+        id: camera
+        resolution: (1080, 1920)
+        play: True
+    Button:
+        text: 'Capture'
+        size_hint_y: None
+        height: '48dp'
+        on_press: app.capture()
     
 Screen:
     MDNavigationLayout:
