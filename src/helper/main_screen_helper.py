@@ -6,7 +6,7 @@ screen_helper = """
     height: "400dp"
     Camera:
         id: camera
-        resolution: (1080, 1920)
+        resolution: (400, 500)
         play: True
     Button:
         text: 'Capture'

@@ -6,7 +6,7 @@ from kivy.core.window import Window
 from helper.main_screen_helper import screen_helper
 import cv2
 
-Window.size = (400, 650) # For development only. This simulates a horizontal screen size.
+#Window.size = (400, 650) # For development only. This simulates a horizontal screen size.
 
 
 class VacCheckApp(MDApp):
