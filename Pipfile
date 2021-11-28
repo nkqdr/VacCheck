@@ -11,6 +11,8 @@ kivy = "*"
 kivymd = "*"
 python-dateutil = "*"
 cython = "*"
+cose = "*"
+zbarcam = "*"
 
 [dev-packages]
 
